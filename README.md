@@ -64,7 +64,7 @@ make sure you fill in the api key in get_key_explain.py
 
 ### 3.2 follow the llamafactory
 
-Follow the [llamafactory](https://github.com/hiyouga/LLaMA-Factory), use the data above to finetune the model with lora rank=16
+Follow the [llamafactory](https://github.com/hiyouga/LLaMA-Factory), use the data above to finetune the model with lora rank=8
 
 ## Step4: Inference
 

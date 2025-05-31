@@ -342,14 +342,15 @@ total_recall = 0
 total_hit_at_1 = 0
 
 for idx, d in enumerate(testdata):
-    # webqsp: 524,1162无法生成sparql; 1024,1231,1278,1582 
+    # 可以忽略一些无法解析的 case
+    # webqsp 
     # if idx in [524,541 ,1162,1024,1231,1278,1582]:
     #     not_evaluable_cnt+=1
     #     continue
     # cwq
-    if idx in [632]:
-        not_evaluable_cnt += 1
-        continue
+    # if idx in [632]:
+    #     not_evaluable_cnt += 1
+    #     continue
 
     if 'AnsE' in d:
         true_result = get_result(d['ori_sparql'], d['AnsE'])
