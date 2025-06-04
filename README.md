@@ -64,11 +64,11 @@ make sure you fill in the api key in get_key_explain.py
 
 ### 3.2 follow the llamafactory
 
-Follow the [llamafactory](https://github.com/hiyouga/LLaMA-Factory), use the data above to finetune the model with lora rank=8
+Follow the [llamafactory](https://github.com/hiyouga/LLaMA-Factory), use the data above to finetune the model with lora rank=16, epoch=5.0
 
 ## Step4: Inference
 
-You can find the pre-trained weights [here]().
+You can find the pre-trained weights [here](https://pan.baidu.com/s/1wPX9iz67m5SB4BAnIiSTMw?pwd=memq).
 
 ### 4.1 preprocess the test data
 
@@ -103,7 +103,7 @@ You can find the pre-trained weights [here]().
 <img src="figures/robustness.png" width = "600" />
 
 
-<!-- ## Bibinfo
+## Bibinfo
 If you found this repo helpful, please help us by citing this paper:
 ```
 @inproceedings{luo2024rog,
@@ -112,4 +112,4 @@ author={Luo, Linhao and Li, Yuan-Fang and Haffari, Gholamreza and Pan, Shirui},
 booktitle={International Conference on Learning Representations},
   year={2024}
 }
-``` -->
+```
