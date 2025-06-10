@@ -103,7 +103,7 @@ You can find the pre-trained weights [here](https://pan.baidu.com/s/1wPX9iz67m5S
 <img src="figures/robustness.png" width = "600" />
 
 
-## Bibinfo
+<!-- ## Bibinfo
 If you found this repo helpful, please help us by citing this paper:
 ```
 @inproceedings{luo2024rog,
@@ -112,4 +112,4 @@ author={Luo, Linhao and Li, Yuan-Fang and Haffari, Gholamreza and Pan, Shirui},
 booktitle={International Conference on Learning Representations},
   year={2024}
 }
-```
+``` -->
